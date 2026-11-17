@@ -1,0 +1,20 @@
+
+name: ERROR3105
+
+options:
+  bundleIdPrefix: com.error3105
+
+targets:
+  ERROR3105:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.error3105.manager
+        PRODUCT_NAME: ERROR3105
+        SWIFT_VERSION: "5.0"
+        INFOPLIST_KEY_CFBundleDisplayName: ERROR 3105
+        TARGETED_DEVICE_FAMILY: "1"
